@@ -1,0 +1,12 @@
+[submodule "external/bitset"]
+	path = external/bitset
+	url = git@github.com:bsm/bitset.lua.git
+[submodule "external/lua-resty-http"]
+	path = external/lua-resty-http
+	url = git@github.com:liseen/lua-resty-http.git
+[submodule "external/nginx_log_by_lua.git"]
+	path = external/nginx_log_by_lua.git
+	url = git@github.com:mtourne/nginx_log_by_lua.git
+[submodule "external/nginx_log_by_lua"]
+	path = external/nginx_log_by_lua
+	url = git@github.com:mtourne/nginx_log_by_lua.git
