@@ -1,7 +1,6 @@
 -- includes
 local http = require("resty.http") -- https://github.com/liseen/lua-resty-http
 local cjson = require("cjson")
-local logging = require("logging") -- https://github.com/mtourne/nginx_log_by_lua/
 local bslib = require("bitset") -- https://github.com/bsm/bitset.lua
 
 -- basic configuration
