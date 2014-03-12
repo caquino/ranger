@@ -68,7 +68,7 @@ if not origin_info then
 		origin_headers[value] = headers[key]
 	end
 	origin_info = cjson.encode(origin_headers)
-	file_dict:set(ngx.var.uri .. "-info", cjson.encode(origin_headers), fcttl)
+	file_dict:set(ngx.var.uri .. "-info", origin_info, fcttl)
 	file_dict:delete(ngx.var.uri .. "-update")
 end
 
